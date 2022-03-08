@@ -1,0 +1,14 @@
+# AMR (Abstract Meaning Representation) release v3.0
+# Le Petit Prince ("The Little Prince"), a 1943 novel by Antoine de Saint-Exupery 
+
+# ::id lpp_1943.1 
+# ::snt मैं कोई छः साल का रहा होऊंगा
+(a / age-01
+      :ARG1 (i / मैं.i)
+      :ARG2 (t / temporal-quantity 
+	    	:quant छः.6
+            	:unit (y / साल.year)
+		:mod (s / कोई.some))
+
+# ::id lpp_1943.2 
+# ::snt एक किताब मिल गई - जंगल की सच्ची कहानियां
