@@ -57,7 +57,7 @@
                         :op3 (w / चाहता.want-01
                               :ARG0 p
                               :ARG1 (s2 / भेड़.sheep :quant एक.1)))
-                  :ARG2 (t3 / उनसे.them))
+                  :ARG2 (t3 / उनसे.they))
             :op2 (s3 / काफी.suffice-01
                   :ARG0 a
                   :purpose (b3 / होने.be-02
@@ -73,6 +73,15 @@
                               :ARG2 (r / मांगेगा.request-01
                                     :ARG1 s2))))))
 
+# ::id lpp_1943.3 
+# ::snt अब मुझे दूसरा पेशा चुनना पड़ा
+(o / पड़ा.obligate-01
+      :ARG1 (m4 / मुझे.me)
+      :ARG2 (c4 / चुनना.choose-01
+            :ARG0 m4
+            :ARG1 (p3 / पेशा.profession
+                  :ord (o2 / दूसरा.ordinal-entity :value 2)))
+      :time (n2 / अब.now))
 
 
 
