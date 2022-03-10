@@ -26,7 +26,7 @@
       	:ARG1 (m / बनाना.make-01
             	:ARG0 i
             	:ARG1 (k / कुछ
-                  :mod (b / भी)))
+                  :degree (b / भी)))
       :time (f / से.from
             :op1 (t / तब.then))
       :ARG2-of (e / के_अलावा.except-01
@@ -35,45 +35,49 @@
 
 # ::id lpp_1943.4 
 # ::snt इसी तरह अगर उनसे कहो, “नन्हा राजकुमार बहुत आकर्षक था, हंसता था, एक भेड़ चाहता था,” और यह उसके होने के लिए - उसके अस्तित्व को साबित करने के लिए काफी है - क्योंकि कोई होगा तभी तो भेड़ मांगेगा, तो ये लोग कंधा उचका कर तुम्हें बच्चा समझ लेंगे
-(a3 / and
-      :op1 (s5 / उचका.shrug-01
-            :ARG0 t3
-            :ARG1 (s6 / कंधा.shoulders
-                  :poss t3))
-      :op2 (t4 / समझ लेंगे.think-01
-            :ARG0 t3
-            :ARG1 y2
-            :ARG2 (c3 / बच्चा.child))
-      :condition (a2 / and
-            :op1 (s / कहो.say-01
-                  :ARG0 (y2 / तुम.you)
-                  :ARG1 (a / and
-                        :op1 (c / आकर्षक.charm-01
-                              :ARG0 (p / राजकुमार.prince
-                                    :mod (l / नन्हा.little))
-                              :mod (v / बहुत.very))
-                        :op2 (l2 / हंसता.laugh-01
-                              :ARG0 p)
-                        :op3 (w / चाहता.want-01
-                              :ARG0 p
-                              :ARG1 (s2 / भेड़.sheep :quant एक.1)))
-                  :ARG2 (t3 / उनसे.they))
-            :op2 (s3 / काफी.suffice-01
-                  :ARG0 a
-                  :purpose (b3 / होने.be-02
-                        :ARG1 p
-                        :ARG1-of (m3 / mean-01
-                              :ARG2 (p2 / साबित करने.prove-01
-                                    :ARG1 (e2 / अस्तित्व.exist-01
-                                          :ARG1 p))))
-                  :ARG1-of (c2 / क्योंकि.cause-01
-                        :ARG0 (i2 / तभी.infer-01
-                              :ARG1 (e3 / होगा.exist-01
-                                    :ARG1 (s4 / कोई.someone))
-                              :ARG2 (r / मांगेगा.request-01
-                                    :ARG1 s2))))))
 
-# ::id lpp_1943.3 
+      
+(t4 / समझ लेंगे.think-01
+      	:ARG0 t3
+      	:ARG1 y2
+      	:ARG2 (c3 / बच्चा.child)
+	:time (z / कर.after 
+		:op1 (s5 / उचका.shrug-01
+            		:ARG0 t3
+            		:ARG1 (s6 / कंधा.shoulders
+                  		:poss t3)))
+	:ARG1-of (v / की तरह.resemble-01
+		    :ARG2 (u / इस.this))
+      	:condition (a2 / and
+            		:op1 (s / कहो.say-01
+                  		:ARG0 (y2 / तुम.you)
+                  		:ARG1 (a / and
+                        		:op1 (c / आकर्षक.charm-01
+                              			:ARG0 (p / राजकुमार.prince
+                                    			 :mod (l / नन्हा.little))
+                              			:degree (v / बहुत.very))
+                        		:op2 (l2 / हंसता.laugh-01
+                              			:ARG0 p)
+                        		:op3 (w / चाहता.want-01
+                              			:ARG0 p
+                              			:ARG1 (s2 / भेड़.sheep :quant एक.1)))
+                  		:ARG2 (t3 / उनसे.they))
+            		:op2 (s3 / काफी.suffice-01
+                  		:ARG0 a
+                  		:purpose (b3 / होने.be-02
+                        			:ARG1 p
+                        			:ARG1-of (m3 / mean-01
+                              				  :ARG2 (p2 / साबित करने.prove-01
+                                    				  :ARG1 (e2 / अस्तित्व.exist-01
+                                          			  	  :ARG1 p))))
+                  		:ARG1-of (c2 / क्योंकि.cause-01
+                        			:ARG0 (i2 / तभी.infer-01
+                              				:ARG1 (e3 / होगा.exist-01
+                                    				:ARG1 (s4 / कोई.someone))
+                              				:ARG2 (r / मांगेगा.request-01
+                                    			  	:ARG1 s2))))))
+
+# ::id lpp_1943.5 
 # ::snt अब मुझे दूसरा पेशा चुनना पड़ा
 (o / पड़ा.obligate-01
       :ARG1 (m4 / मुझे.me)
@@ -82,6 +86,32 @@
             :ARG1 (p3 / पेशा.profession
                   :ord (o2 / दूसरा.ordinal-entity :value 2)))
       :time (n2 / अब.now))
+
+# ::id lpp_1943.6 
+# ::snt मैंने अपना राज्य घूम कर देखा भी तो नहीं है
+(s / देखा.see-01 :polarity नहीं.-
+      :ARG0 (i / मैं.i)
+      :ARG1 (k / राज्य.kingdom
+            :poss मैं.i)
+      :time (a / कर.after
+            :op1 (s2 / घूम.stroll-01
+                  :ARG0 i
+                  :ARG1 k)))
+
+
+# ::id lpp_1943.7 
+# ::snt राजकुमार को अपने कर्तव्य के प्रति इतना ईमानदार बत्ती वाला बड़ा भला लगा
+(f / लगा.feel-01
+      :ARG0 (p / राजकुमार.prince)
+      :ARG1 (g / भला.good
+		:degree (v / बड़ा.hugely))
+      :ARG2 (l / बत्ती वाला.lampman
+            :ARG1-of (f2 / ईमानदार.faithful-00
+                  :ARG2 (d / कर्तव्य.duty
+                        :poss अपने.l))))
+
+
+
 
 
 
