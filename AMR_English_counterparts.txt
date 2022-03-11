@@ -1,0 +1,150 @@
+# ::id lpp_1943.2 ::date 2012-06-07T17:06:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt Once when I was six years old I saw a magnificent picture in a book , called True Stories from Nature , about the primeval forest .
+# ::save-date Mon May 13, 2013 ::file lpp_1943_2.txt
+(s / see-01
+      :ARG0 (i / i)
+      :ARG1 (p / picture
+            :mod (m / magnificent)
+            :location (b2 / book :wiki -
+                  :name (n / name :op1 "True" :op2 "Stories" :op3 "from" :op4 "Nature")
+                  :topic (f / forest
+                        :mod (p2 / primeval))))
+      :mod (o / once)
+      :time (a / age-01
+            :ARG1 i
+            :ARG2 (t / temporal-quantity :quant 6
+                  :unit (y / year))))
+
+
+# ::id lpp_1943.54 ::date 2012-07-24T11:56:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt The grown - ups discouraged me in my painter 's career when I was six years old , and I never learned to draw anything , except boas from the outside and boas from the inside .
+# ::save-date Tue Nov 4, 2014 ::file lpp_1943_54.txt
+(d / discourage-01
+      :ARG0 (g / grown-up)
+      :ARG1 (i / i)
+      :ARG2 (c / career
+            :topic (p / person
+                  :ARG0-of (p2 / paint-02))
+            :poss i)
+      :ARG0-of (c2 / cause-01
+            :ARG1 (l / learn-01 :polarity -
+                  :ARG0 i
+                  :ARG1 (d2 / draw-01
+                        :ARG0 i
+                        :ARG1 (a2 / anything))
+                  :time (e / ever)
+                  :ARG2-of (e2 / except-01
+                        :ARG1 (a3 / and
+                              :op1 (b / boa
+                                    :direction (f / from
+                                          :op1 (o / outside)))
+                              :op2 (b2 / boa
+                                    :direction (f2 / from
+                                          :op1 (i2 / inside)))))))
+      :time (a / age-01
+            :ARG1 i
+            :ARG2 (t2 / temporal-quantity :quant 6
+                  :unit (y / year))))
+
+# ::id lpp_1943.174 ::date 2012-07-31T13:16:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt Just so , you might say to them : " The proof that the little prince existed is that he was charming , that he laughed , and that he was looking for a sheep .
+# ::save-date Thu Jan 11, 2018 ::file lpp_1943_174.txt
+(p / possible-01
+      :ARG1 (s2 / say-01
+            :ARG0 (y / you)
+            :ARG1 (p2 / prove-01
+                  :ARG0 (a / and
+                        :op1 (c / charm-01
+                              :ARG0 (h / he))
+                        :op2 (l / laugh-01
+                              :ARG0 h)
+                        :op3 (l2 / look-01
+                              :ARG0 h
+                              :ARG1 (s3 / sheep)))
+                  :ARG1 (e / exist-01
+                        :ARG1 (p3 / prince
+                              :mod (l3 / little))))
+            :ARG2 (t / they)
+            :manner (j / just-so)))
+
+# ::id lpp_1943.175 ::date 2012-07-31T13:20:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt If anybody wants a sheep , that is a proof that he exists . "
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_175.txt
+(p / prove-01
+  :ARG0 (w / want-01
+          :ARG0 (a / anybody)
+          :ARG1 (s / sheep))
+  :ARG1 (e / exist-01
+          :ARG1 a))
+
+# ::id lpp_1943.177 ::date 2012-07-31T13:24:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt They would shrug their shoulders , and treat you like a child .
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_177.txt
+(a / and
+      :op1 (s / shrug-01
+            :ARG0 (t / they)
+            :ARG1 (s2 / shoulder
+                  :poss t))
+      :op2 (t2 / treat-01
+            :ARG0 t
+            :ARG1 (y / you)
+            :ARG2 (c / child)))
+
+# ::id lpp_1943.21 ::date 2012-06-14T16:08:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt So then I chose another profession , and learned to pilot airplanes .
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_21.txt
+(c2 / cause-01
+  :ARG1 (a / and
+          :op1 (c / choose-01
+                 :ARG0 (i / i)
+                 :ARG1 (p / profession
+                         :mod (a2 / another)))
+          :op2 (l / learn-01
+                 :ARG0 i
+                 :ARG1 (p2 / pilot-01
+                         :ARG0 i
+                         :ARG1 (a3 / airplane)))))
+
+# ::id lpp_1943.570 ::date 2012-11-25T18:25:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I have not yet made a complete tour of my kingdom .
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_570.txt
+(t / tour-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (k / kingdom
+            :poss i)
+      :ARG1-of (c / complete-02))
+
+# ::id lpp_1943.804 ::date 2012-11-14T14:36:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt As the little prince watched him , he felt that he loved this lamplighter who was so faithful to his orders .
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_804.txt
+(f / feel-01
+      :ARG0 (p / prince
+            :mod (l2 / little))
+      :ARG1 (l / love-01
+            :ARG0 p
+            :ARG1 (p2 / person
+                  :ARG0-of (l3 / light-04
+                        :ARG1 (l4 / lamp))
+                  :mod (t / this)
+                  :ARG1-of (f2 / faithful-00
+                        :ARG2 (t2 / thing
+                              :ARG2-of (o / order-01
+                                    :ARG1 p2)))))
+      :time (w / watch-01
+            :ARG0 p
+            :ARG1 p2))
+
+# ::id lpp_1943.434 ::date 2012-11-11T12:27:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt On the morning of his departure he put his planet in perfect order .
+# ::save-date Fri Feb 26, 2016 ::file lpp_1943_434.txt
+(o / order-03
+      :ARG0 (h / he)
+      :ARG1 (p2 / planet
+            :poss h)
+      :ARG1-of (p / perfect-02)
+      :time (d2 / date-entity
+            :dayperiod (m / morning)
+            :time-of (d / depart-01
+                  :ARG0 h)))
+
+
