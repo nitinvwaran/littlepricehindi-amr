@@ -159,6 +159,10 @@
 
 # ::id lpp_1943.13 
 # ::snt पर दुर्भाग्यवश यहां कोई आता ही नहीं
-
+(c2 / पर.contrast-01
+      :ARG2 (c / आता.come-01 :polarity नहीं.-
+            :ARG1 (n / कोई.noone)
+            :ARG4 (h / यहां.here)
+            :ARG2-of (f / दुर्भाग्यवश.fortunate-01 :polarity -)))
 
 
