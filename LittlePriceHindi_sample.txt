@@ -165,4 +165,35 @@
             :ARG4 (h / यहां.here)
             :ARG2-of (f / दुर्भाग्यवश.fortunate-01 :polarity -)))
 
+# ::id lpp_1943.14 
+# ::snt ये कुछ करते नहीं
+(d / करते.do-02 :polarity नहीं.-
+      :ARG0 (t / ये.they)
+      :ARG1 (a / कुछ.anything))
+
+# ::id lpp_1943.15 
+# ::snt अंदर बैठे सो रहे होंगे या जम्हाई ले रहे होंगे, 
+(o / या.or
+      :op1 (s / सो.sleep-01
+            :ARG0 (t2 / they)
+            :location (i2 / अंदर.inside))
+      :op2 (y / जम्हाई ले.yawn-01
+            :ARG0 t2
+            :location i2))
+
+# ::id lpp_1943.16 
+# ::snt बस बच्चे खिड़की से नाक रगड़ते कुछ देख रहे होंगे।”
+(a2 / and
+      :op1 (c / रगड़ते.crush-01
+            :ARG0 (c2 / बच्चे.child
+                  :mod (o / बस.only))
+            :ARG1 (n / नाक.nose
+                  :part-of c2)
+            :ARG2 (w / खिड़की.window))
+      :op2 (s2 / देख.see-01
+            :ARG1 (s3 / कुछ.something)))
+
+
+ 
+
 
