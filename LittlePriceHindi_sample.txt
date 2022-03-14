@@ -193,6 +193,14 @@
       :op2 (s2 / देख.see-01
             :ARG1 (s3 / कुछ.something)))
 
+# ::id lpp_1943.17 
+# ::snt एक क्षण को तारे के नीचे इंतजार करिएगा 
+(w / इंतजार करिएगा.wait-01
+      :ARG1 (y / you)
+      :ARGM-TMP (m / क्षण.moment :quant एक.1)
+      :location (u / के नीचे.under
+            :op1 (s / तारे.stars)))
+
 
  
 
