@@ -202,6 +202,46 @@
             :op1 (s / तारे.stars)))
 
 
- 
+# ::id lpp_1943.18 
+# ::snt उसे उन सूर्यास्तों की याद आई जिन्हें वह कुर्सी खिसका-खिसका कर देखता रहता था
+(r / याद आई.remember-01
+      :ARG0 (h / उसे.he)
+      :ARG1 (s2 / सूर्यास्तों.sunset
+            :ARG1-of (s3 / देखता रहता.see-01
+                  :ARG0 h
+                  :time (a / कर.after
+                        :op1 (m2 / खिसका-खिसका.move-01
+                              :ARG0 h
+                              :ARG1 (c / कुर्सी.chair))))))
+
+
+# ::id lpp_1943.19 
+# ::snt बाद में मैंने याद करके उसकी जो सबसे अच्छी तस्वीर बनाई वह यह रही
+(t / यह.this
+      :domain (p
+            :ARG1-of (d / बनाई.draw-01
+                  :ARG0 (i / मैंने.i)
+                  :time (a / के.after
+                        :op1 (r / याद कर.remember-01
+                              :ARG0 i
+                              :time (a2 / बाद में.after))))
+            :topic (h / उसकी.he)
+            :ARG1-of (h2 / have-degree-91
+                  :ARG2 (g / good-02
+                        :ARG1 p / तस्वीर.picture)
+                  :ARG3 (m / सबसे.most)
+                  :ARG5 (p2 / picture))))
+
+
+# ::id lpp_1943.20 
+# ::snt मुझे अपनी आज्ञा का पालन कराने का अधिकार है क्योंकि मेरी आज्ञा न्याय संगत होती है
+(r / अधिकार.right-02
+      :ARG1 (e / पालन कराने.enforce-01
+            :ARG0 (i / मुझे.i)
+            :ARG1 (o / आज्ञा.orders
+                  :poss अपनी.i))
+      :ARG1-of (c / क्योंकि.cause-01
+            :ARG0 (j / न्याय संगत.just-02
+                  :ARG1 आज्ञा.o)))
 
 
