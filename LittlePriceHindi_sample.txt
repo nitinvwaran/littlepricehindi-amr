@@ -26,7 +26,7 @@
       	:ARG1 (m / बनाना.make-01
             	:ARG0 i
             	:ARG1 (k / कुछ
-                  :degree (b / भी)))
+                  :mod (b / भी)))
       :time (f / से.from
             :op1 (t / तब.then))
       :ARG2-of (e / के_अलावा.except-01
@@ -87,6 +87,7 @@
 # ::id lpp_1943.6 
 # ::snt मैंने अपना राज्य घूम कर देखा भी तो नहीं है
 (s / देखा.see-01 :polarity नहीं.-
+      :degree (b / भी)
       :ARG0 (i / मैं.i)
       :ARG1 (k / राज्य.kingdom
             :poss मैं.i)
@@ -112,9 +113,10 @@
       :ARG0 (h / उसने.he)
       :ARG1 (e / सब.everything)
       :time (d2 / दिन.day
-            :mod (t / जिस.that)
-            :time-of (d / रवाना होने.depart-01
-                  :ARG0 h)))
+            :mod (d / रवाना होने.depart-01
+                  	:ARG0 h
+			:time (a / before :op1 (n/now))
+			:stable -)))
 
 # ::id lpp_1943.9 
 # ::snt उसे कुकुरमुत्ता कहेंगे
@@ -175,9 +177,13 @@
 # ::snt अंदर बैठे सो रहे होंगे या जम्हाई ले रहे होंगे, 
 (o / या.or
       :op1 (s / सो.sleep-01
+	    :mode presumptive
+            :ongoing +
             :ARG0 (t2 / they)
             :location (i2 / अंदर.inside))
       :op2 (y / जम्हाई ले.yawn-01
+            :mode presumptive
+            :ongoing +
             :ARG0 t2
             :location i2))
 
@@ -189,14 +195,18 @@
                   :mod (o / बस.only))
             :ARG1 (n / नाक.nose
                   :part-of c2)
-            :ARG2 (w / खिड़की.window))
+            :ARG2 (w / खिड़की.window)
+            :habitual +)
       :op2 (s2 / देख.see-01
-            :ARG1 (s3 / कुछ.something)))
+	    :mode presumptive
+            :ongoing +
+	    :ARG1 (s3 / कुछ.something)))
 
 # ::id lpp_1943.17 
 # ::snt एक क्षण को तारे के नीचे इंतजार करिएगा 
 (w / इंतजार करिएगा.wait-01
-      :ARG1 (y / you)
+      :mode imperative
+      :ARG1 (y / HONORIFIC you)
       :ARGM-TMP (m / क्षण.moment :quant एक.1)
       :location (u / के नीचे.under
             :op1 (s / तारे.stars)))
